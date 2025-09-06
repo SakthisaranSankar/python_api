@@ -305,6 +305,6 @@ def search(data: dict):
             })
     answer_json["documents"] = documents
     answer_json["images"] = images
-    return JSONResponse(content={"message": "pong"})
+    return JSONResponse(content=answer_json)
 
 
